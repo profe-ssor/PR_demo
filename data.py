@@ -1,0 +1,8 @@
+print("--------------------EMPLOYEE RECORD SYSTEM--------------------")
+employee_name = input("Employee Name: ").upper()
+department = input("Department: ").upper()
+monthly_salary = float(input("Monthly Salary: "))
+print(f"Welcome {employee_name}, here is summarized details of your info")
+print("=====================================================================")
+print(f" NAME: {employee_name}\n DEPARTMENT: {department}\n MONTHLY SALARY: {monthly_salary}")
+print("=====================================================================")
